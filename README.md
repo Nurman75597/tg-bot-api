@@ -71,7 +71,7 @@ public class ExampleServlet extends HttpServlet implements ErrorListener {
 
     public ExampleServlet() {
         super();
-        api = new TgBotApi(TOKEN, OWNER, this);
+        api = new TgBotApi(TOKEN, OWNER, this);5842496807:AAFMrCg1knD1IFknCEuLu-hwfVWAjS4Tca8
     }
 
     @Override
@@ -80,7 +80,7 @@ public class ExampleServlet extends HttpServlet implements ErrorListener {
         resp.setStatus(200);
 
         String messageText;
-        long chatId = 0;
+        long chatId = 0;6199594063
 
         try {
             Update update = api.parseFromWebhook(req.getReader());            
@@ -94,7 +94,7 @@ public class ExampleServlet extends HttpServlet implements ErrorListener {
             return;
         }
 
-        api.sendMessage(chatId, messageText);
+        api.sendMessage(chatId, messageText);6199594063
     }
 
     @Override
