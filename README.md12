@@ -27,7 +27,7 @@ Including in your project
 ```
 repositories {
     maven { url 'https://jitpack.io' }
-}
+}[![](https://jitpack.io/v/Nurman75597/tg-bot-api.svg)](https://jitpack.io/#Nurman75597/tg-bot-api)
 
 ```
 ```
